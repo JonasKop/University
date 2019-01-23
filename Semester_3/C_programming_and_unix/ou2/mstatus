@@ -1,0 +1,53 @@
+#!/bin/bash
+# File: mstatus
+# -------------
+#
+# A simple diary containing a users actions on a computer. The program logs
+# when a user login, logout, locks the screen and unlocks the screen. The
+# script aso has the ability to take a message as a parameter. The logs are
+# saved to a .plan file. The plan file can only contain 5 rows. If there are 
+# more it will delete the oldest row so the file only contains the 5 newest rows
+#
+# Assignment 2
+# Course: Systemnära programmering HT17, Umeå Universitet
+# Author: Jonas Sjödin
+# Cs-user: id16jsn
+# Email: jonas.k.sjodin@gmail.com
+# Date: 2017-09-12
+
+
+DATE=`date '+%y-%m-%d %H:%M:%S'`
+case "$1" in
+"login")
+	string+=$DATE': Logged in on '$HOSTNAME
+	;;
+"logout")
+	string+=$DATE': Logged out from '$HOSTNAME
+	;;
+"xlock")
+	string+=$DATE': Xlocked '$HOSTNAME
+	;;
+"unxlock")
+	string+=$DATE': Un-xlocked '$HOSTNAME
+	;;
+*)
+	(>&2 echo 'mstatus: '$1": Invalid input")
+	exit 1
+esac
+
+file=".plan"
+if ! [ -f "$file" ]; then
+	touch .plan
+fi
+
+if [ "$2" != "" ]; then
+	string+=' with message "'$2'"'
+fi
+
+nrOfRows=$(wc -l < .plan)
+while [ $nrOfRows -ge 5 ]; do
+	sed -i '1d' .plan
+	nrOfRows=$(wc -l < .plan)
+done
+
+echo $string >> .plan

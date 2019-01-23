@@ -1,0 +1,31 @@
+.TH MSTATUS 1 "September 2017" "version 1.0"
+.SH NAME
+mstatus - log your computer habits
+.SH SYNOPSIS
+.B mstatus
+.I [action] [message]
+.SH DESCRIPTION
+A simple diary containing what a users actions on a computer. The program logs when a user login, logout, locks the computer and unlocks the computer. The script also has the ability to take a message as a parameter. The logs are saved to a .plan file. The .plan file can only contain 5 rows. If there are more it will delete the oldest row so the file only contains the 5 newest rows.
+.SH AUTHOR
+Written by Jonas Sjodin (id16jsn)
+.SH OPTIONS
+.LP
+.B login
+.br
+		if login should be logged
+.LP
+.B logout
+.br
+		if logout should be logged
+.LP
+.B xlock
+.br
+		if xlock should be logged
+.LP
+.B unxlock
+.br
+		if un-xlocked should be logged
+.LP
+.B [message]
+.br
+		The message is optional. If entered it is also saved to the .plan log file.
