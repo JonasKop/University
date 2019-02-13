@@ -1,0 +1,32 @@
+How to play
+
+The goal of this game is to lower the enemy's health to 0 by sending
+ troops to the "G" marked tiles on the map.
+
+S = Troop spawn
+G = Troop goal
+
+To spawn troops, press the buttons on the bottom to spawn a corrisponding troop.
+
+If several spawns are available, you may choose which one to use by clicking on it,
+ a dashed yellow circle is shown on an active spawn.
+
+Credits are used to spawn troops, a sum is given to
+ you at start and more is given during the game,
+ the banker troop will increase the given amount while on the field.
+
+You can see information such as cost and health about each troop directly to the left.
+
+If there are T-junction and/or crossroads present on the map,
+ an arrow will indicate which direction troops will take when passing it,
+ you can change this direction by clicking on the corrisponding tile.
+
+Areas marked with a green plus will any troops passing by.
+
+Some parts of the waterway may have blue arrows on them, and will give your troops some extra speed.
+
+The teleport troop will, after pressing the spawnbutton again, 
+ transform into a whirlpool sending your other troops ahead when they enter.
+ 
+Under the menu, you may start a new game, restart your current game,
+ pause or resume your current game or quit the game.

@@ -1,0 +1,2 @@
+Main-class: antitd.AntiTD
+Class-path: . mysql-connector-java-5.1.47.jar

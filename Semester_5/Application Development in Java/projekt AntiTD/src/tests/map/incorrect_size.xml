@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<maps>
+    <gameMap width="-2" height="-2" ground-type="grass">
+        <tile x="1" y="1" road-direction="e"/>
+        <tile x="2" y="1" ground-type="desert" road-direction="e"/>
+        <tile x="3" y="1" road-direction="e"/>
+        <tile x="4" y="1" road-direction="e"/>
+        <tile x="5" y="1" road-direction="e"/>
+        <tile x="6" y="1" road-direction="e"/>
+        <tile x="7" y="1" road-direction="e"/>
+        <tile x="8" y="1" road-direction="e"/>
+    </gameMap>
+</maps>

@@ -1,0 +1,14 @@
+<maps>
+    <gameMap name="Fields of MIT" width="3" height="3" ground-type="grass">
+        <tile x="0" y="0" road-direction="e" special="start"/>
+        <tile x="1" y="0" road-direction="e" special="health"/>
+        <tile x="2" y="0" road-direction="e" special="goal"/>
+    </gameMap>
+    <gameMap name="Map nr 2" width="3" height="3" ground-type="desert">
+        <tile x="0" y="0" road-direction="e" special="start"/>
+        <tile x="1" y="0" road-direction="e|s" special="health"/>
+        <tile x="2" y="0" road-direction="e" special="goal"/>
+        <tile x="1" y="1" road-direction="s" special="speed"/>
+        <tile x="1" y="2" road-direction="s" special="goal"/>
+    </gameMap>
+</maps>

@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<maps>
+    <gameMap name="Fields of MIT" width="10" height="10" ground-type="grass">
+        <tile x="0" y="1" road-direction="e" special="start"/>
+        <tile x="1" y="1" road-direction="e"/>
+        <tile x="2" y="1" road-direction="s|e"/>
+        <tile x="3" y="1" road-direction="e"/>
+        <tile x="4" y="1" road-direction="e"/>
+        <tile x="2" y="2" road-direction="s" special="speed"/>
+        <tile x="2" y="3" road-direction="s"/>
+        <tile x="2" y="4" road-direction="e"/>
+    	<tile x="3" y="4" road-direction="e"/>
+        <tile x="4" y="4" road-direction="e"/>
+        <tile x="5" y="4" road-direction="n"/>
+        <tile x="5" y="5" road-direction="n"/>
+        <tile x="5" y="6" road-direction="n"/>
+        <tile x="5" y="7" road-direction="n" special="speed"/>
+        <tile x="5" y="8" road-direction="n"/>
+        <tile x="6" y="8" road-direction="w"/>
+        <tile x="7" y="8" road-direction="w" special="start"/>
+        <tile x="5" y="3" road-direction="n" special="health"/>
+        <tile x="5" y="2" road-direction="n"/>
+        <tile x="5" y="1" road-direction="e"/>
+        <tile x="6" y="1" road-direction="e"/>
+        <tile x="7" y="1" road-direction="e"/>
+        <tile x="8" y="1" road-direction="e"/>
+		
+        <tile x="0" y="4" road-direction="e" special="start"/>
+        <tile x="1" y="4" road-direction="e"/>
+		
+        <tile x="9" y="1" road-direction="e" special="goal"/>
+
+
+    </gameMap>
+    <gameMap name="Desert Mayhem" width="10" height="10"
+             ground-type="desert">
+        <tile x="0" y="1" road-direction="e" special="start"/>
+        <tile x="1" y="1" road-direction="e"/>
+        <tile x="2" y="1" road-direction="s|e"/>
+        <tile x="3" y="1" road-direction="e"/>
+        <tile x="4" y="1" road-direction="e"/>
+        <tile x="2" y="2" road-direction="s"/>
+        <tile x="2" y="3" road-direction="s"/>
+        <tile x="2" y="4" road-direction="e"/>
+        <tile x="3" y="4" road-direction="e"/>
+        <tile x="4" y="4" road-direction="e"/>
+        <tile x="5" y="4" road-direction="n"/>
+        <tile x="5" y="3" road-direction="n"/>
+        <tile x="5" y="2" road-direction="n"/>
+        <tile x="5" y="1" road-direction="e"/>
+        <tile x="6" y="1" road-direction="e"/>
+        <tile x="7" y="1" road-direction="e"/>
+        <tile x="8" y="1" road-direction="e"/>
+
+        <tile x="0" y="4" road-direction="e" special="start|speed"/>
+        <tile x="1" y="4" road-direction="e" special="health"/>
+
+        <tile x="9" y="1" road-direction="e" special="goal"/>
+
+        <tile x="7" y="7" ground-type="desert"/>
+    </gameMap>
+    <gameMap name="Mariehem till tomtebo" width="25" height="26"
+             ground-type="grass">
+        <tile x="4" y="5" road-direction="s" special="start"/>
+        <tile x="4" y="6" road-direction="s" special="speed"/>
+        <tile x="4" y="7" road-direction="s" special="speed"/>
+        <tile x="4" y="8" road-direction="s" special="speed"/>
+        <tile x="4" y="9" road-direction="s" special="speed"/>
+        <tile x="4" y="10" road-direction="s" special="speed"/>
+        <tile x="4" y="11" road-direction="s" special="speed"/>
+        <tile x="4" y="12" road-direction="s" special="speed"/>
+		
+		<tile x="6" y="8" road-direction="s" special="start"/>
+        <tile x="6" y="9" road-direction="s"/>
+        <tile x="6" y="10" road-direction="s"/>
+        <tile x="6" y="11" road-direction="s"/>
+        <tile x="6" y="12" road-direction="s"/>
+		
+        <tile x="4" y="13" road-direction="e" special="speed"/>
+        <tile x="5" y="13" road-direction="e" special="speed"/>
+        <tile x="6" y="13" road-direction="e"/>
+        <tile x="7" y="13" road-direction="e"/>
+        <tile x="8" y="13" road-direction="n|e|s"/>
+		
+        <tile x="8" y="14" road-direction="s"/>
+        <tile x="8" y="15" road-direction="s"/>
+        <tile x="8" y="16" road-direction="s"/>
+        <tile x="8" y="17" road-direction="s"/>
+		
+        <tile x="8" y="12" road-direction="n"/>
+        <tile x="8" y="11" road-direction="n"/>
+        <tile x="8" y="10" road-direction="n"/>
+        <tile x="8" y="9" road-direction="n"/>
+		
+        <tile x="8" y="8" road-direction="e"/>
+        <tile x="9" y="8" road-direction="e"/>
+        <tile x="10" y="8" road-direction="e"/>
+        <tile x="11" y="8" road-direction="e"/>
+        <tile x="12" y="8" road-direction="e"/>
+        <tile x="13" y="8" road-direction="e"/>
+        <tile x="14" y="8" road-direction="e"/>
+        <tile x="15" y="8" road-direction="e"/>
+		
+        <tile x="8" y="18" road-direction="e"/>
+        <tile x="9" y="18" road-direction="e" special="teleport"/>
+        <tile x="10" y="18" road-direction="e" ground-type="grass"/>
+        <tile x="11" y="18" road-direction="e" ground-type="grass"/>
+        <tile x="12" y="18" road-direction="e" ground-type="grass"/>
+        <tile x="13" y="18" road-direction="e" ground-type="grass"/>
+        <tile x="14" y="18" road-direction="e" ground-type="grass"/>
+        <tile x="15" y="18" road-direction="e"/>
+		
+        <tile x="16" y="18" road-direction="n"/>
+        <tile x="16" y="17" road-direction="n"/>
+        <tile x="16" y="16" road-direction="n"/>
+        <tile x="16" y="15" road-direction="n"/>
+        <tile x="16" y="14" road-direction="n"/>
+		
+        <tile x="16" y="8" road-direction="s"/>
+        <tile x="16" y="9" road-direction="s"/>
+        <tile x="16" y="10" road-direction="s"/>
+        <tile x="16" y="11" road-direction="s"/>
+        <tile x="16" y="12" road-direction="s"/>
+		
+        <tile x="16" y="13" road-direction="e"/>
+        <tile x="17" y="13" road-direction="e"/>
+        <tile x="18" y="13" road-direction="e"/>
+        <tile x="19" y="13" road-direction="e"/>
+		
+        <tile x="20" y="13" road-direction="s"/>
+        <tile x="20" y="14" road-direction="s"/>
+        <tile x="20" y="15" road-direction="s"/>
+        <tile x="20" y="16" road-direction="s"/>
+        <tile x="20" y="17" road-direction="s"/>
+        <tile x="20" y="18" road-direction="s"/>
+        <tile x="20" y="19" road-direction="s"/>
+        <tile x="20" y="20" road-direction="s" special="goal"/>
+		
+        <tile x="9" y="13" road-direction="e" special="speed"/>
+        <tile x="10" y="13" road-direction="n" special="speed"/>
+        <tile x="10" y="12" road-direction="e" special="speed"/>
+        <tile x="11" y="12" road-direction="e" special="speed"/>
+        <tile x="12" y="12" road-direction="s" special="speed"/>
+        <tile x="12" y="13" road-direction="s" special="speed"/>
+        <tile x="12" y="14" road-direction="e" special="speed"/>
+        <tile x="13" y="14" road-direction="e" special="speed"/>
+        <tile x="14" y="14" road-direction="n" special="speed"/>
+        <tile x="14" y="13" road-direction="e" special="speed"/>
+        <tile x="15" y="13" road-direction="e" special="speed"/>
+		
+    </gameMap>
+
+
+</maps>

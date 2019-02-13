@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<maps>
+    <gameMap name="Basic gameMap" width="10" height="10" ground-type="grass">
+        <tile x="0" y="1" road-direction="e" special="start"/>
+        <tile x="1" y="1" road-direction="e"/>
+        <tile x="2" y="1" ground-type="desert" road-direction="e"/>
+        <tile x="3" y="1" road-direction="e"/>
+        <tile x="4" y="1" road-direction="e"/>
+        <tile x="5" y="1" road-direction="e"/>
+        <tile x="6" y="1" road-direction="e"/>
+        <tile x="7" y="1" road-direction="e"/>
+        <tile x="8" y="1" road-direction="e"/>
+        <tile x="9" y="1" road-direction="e" special="goal"/>
+    </gameMap>
+</maps>
